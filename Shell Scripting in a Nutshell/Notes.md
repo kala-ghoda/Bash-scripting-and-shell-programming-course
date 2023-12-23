@@ -151,3 +151,20 @@ do
 	some command
 done
 ```
+
+# Accepting User input (STDIN)
+
+The `read` command is used to accept user input. It generally accepts input from STDIN, but can also be used to give pipe inputs.
+
+Syntax:
+
+```bash
+read -p "PROMPT" VARIABLE
+```
+
+Example:
+
+```bash
+read -p "Enter a number" NUMBER
+echo $NUMBER
+```
