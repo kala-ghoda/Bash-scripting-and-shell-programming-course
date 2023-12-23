@@ -40,7 +40,7 @@ VARIABLE="whatever value"
 
 Variables in bash are case-sensitive, but conventionally they are declared in all caps.
 
-** Note: <mark>There should be no space between the declaration</mark> **
+**Note: <mark>There should be no space between the declaration</mark>**
 
 Example usage:
 
@@ -73,7 +73,7 @@ Syntax:
 [ some_conditional_text ]
 ```
 
-** Note: To check for various types of tests, run the command `help test` **
+**Note: To check for various types of tests, run the command `help test`**
 
 If condition true, it returns true (0), else false (1).
 
@@ -95,7 +95,7 @@ else
 fi
 ```
 
-** Note: It is a good practice to enclose variables in quotes (" "), to avoid unexpected side effects. **
+**Note: It is a good practice to enclose variables in quotes (" "), to avoid unexpected side effects.**
 
 # Loops
 
@@ -128,7 +128,7 @@ do
 done
 ```
 
-#Positional parameters
+# Positional parameters
 
 Positional parameters are the arguments passed through the command lines. The positional parameters are accessed just like the variables (using the `$` symbol) and are accessed by a numerical value. The value `$0` denotes the script itself and the following values (`$1`, `$2`, etc.) are the arguments.
 

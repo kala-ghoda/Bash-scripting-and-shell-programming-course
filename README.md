@@ -3,5 +3,5 @@ Course files and programs created while learning this course.
 
 Links to lecture notes:
 
-1. [ Lecture 1 ](Course overview and introduction/Notes.md)
-2. [ Lecture 2 ](Shell Scripting in a Nutshell/Notes.md)
+1. [Lecture 1](Course%20overview%20and%20introduction/Notes.md)
+2. [Lecture 2](Shell%20Scripting%20in%20a%20Nutshell/Notes.md)
