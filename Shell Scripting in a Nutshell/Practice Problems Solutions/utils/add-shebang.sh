@@ -1,13 +1,11 @@
 #!/bin/zsh
 
 SHEBANG="#!/bin/zsh"
-PREFIX="exercise"
-SUFFIX=".sh"
+FILES=($(ls ../ | grep ".sh"))
 cd ../
 
-for i in {1..8}
+for FILE in $FILES
 do
-	FILE=${PREFIX}${i}$SUFFIX
 	if [ -e $FILE ]
 	then
 		echo $SHEBANG > $FILE
